@@ -1,0 +1,35 @@
+{
+  "invoice_number": "51109338",
+  "date": "04/13/2013",
+  "seller": "Andrews, Kirby and Valdez",
+  "items": [
+    {
+      "description": "CLEARANCE! Fast Dell Desktop Computer PC DUAL CORE WINDOWS 10 4/8/16GB RAM",
+      "quantity": "3.00"
+    },
+    {
+      "description": "HP T520 Thin Client Computer AMD GX-212JC 1.2GHz 4GB RAM TESTED !!READ BELOW!!",
+      "quantity": "5.00"
+    },
+    {
+      "description": "gaming pc desktop computer",
+      "quantity": "1.00"
+    },
+    {
+      "description": "12-Core Gaming Computer Desktop PC Tower Affordable GAMING PC 8GB AMD Vega RGB",
+      "quantity": "3.00"
+    },
+    {
+      "description": "Custom Build Dell Optiplex 9020 MT i5-4570 3.20GHz Desktop Computer PC",
+      "quantity": "5.00"
+    },
+    {
+      "description": "Dell Optiplex 990 MT Computer PC Quad Core i7 3.4GHz 16GB 2TB HD Windows 10 Pro",
+      "quantity": "4.00"
+    },
+    {
+      "description": "Dell Core 2 Duo Desktop Computer | Windows XP Pro | 4GB | 500GB",
+      "quantity": "5.00"
+    }
+  ]
+}
