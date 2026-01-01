@@ -8,6 +8,8 @@ This system explores deterministic document parsing under OCR noise without reli
 
 The core objective is to demonstrate **coordinate-based document reconstruction**, emphasizing explainable logic and correctness over broad generalization.
 
+<img width="1812" height="781" alt="image" src="https://github.com/user-attachments/assets/ed66e237-dfb4-4255-882c-bb3e7262cfb1" />
+
 ## 🛠 Technology Stack
 
 - **Language:** Python 3.10+
