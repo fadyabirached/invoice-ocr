@@ -1,6 +1,13 @@
-from ocr_cli import ocr_tsv
-from layout_parser import parse_invoice_layout_A
-from storage import save_json
+import sys
+from pathlib import Path
+
+ROOT_DIR = Path(__file__).resolve().parents[1]
+sys.path.append(str(ROOT_DIR))
+
+
+from core.ocr_cli import ocr_tsv
+from core.layout_parser import parse_invoice_layout_A
+from core.storage import save_json
 
 def process_image(image_path: str):
     tsv = ocr_tsv(image_path)

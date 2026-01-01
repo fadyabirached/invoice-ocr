@@ -1,7 +1,7 @@
 {
-  "seller": "Palmer Ltd",
   "invoice_number": "19471831",
   "date": "04/09/2014",
+  "seller": "Palmer Ltd",
   "items": [
     {
       "description": "15\"x15\" White Decorative Coffee Table Top Lapis Lazuli Marquetery Patio Décor",
@@ -14,14 +14,6 @@
     {
       "description": "60 Inches Marble Dinning Table Top Hand Inlaid Garden Table with Gemstones",
       "quantity": "5.00"
-    },
-    {
-      "description": null,
-      "quantity": null
-    },
-    {
-      "description": null,
-      "quantity": null
     }
   ]
 }
