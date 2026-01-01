@@ -6,7 +6,7 @@
 
 This system explores deterministic document parsing under OCR noise without reliance on Machine Learning or Large Language Models (LLMs). By treating document structure as a geometric problem, the system reconstructs rows, identifies table headers, and anchors column boundaries to achieve reliable extraction within a constrained layout scope.
 
-The core objective is to demonstrate **coordinate-based document reconstruction**, emphasizing explainable logic and correctness over broad generalization.
+While the implementation is validated on a specific invoice template, the parsing engine is layout-driven and can be extended to support additional invoice formats by defining new geometric layout rules.
 
 <img width="1812" height="781" alt="image" src="https://github.com/user-attachments/assets/ed66e237-dfb4-4255-882c-bb3e7262cfb1" />
 
@@ -87,11 +87,11 @@ The system produces a strict JSON schema containing metadata and tabular data:
 ## 🎯 Scope & Design Principles
 This project is layout-specific by design. It prioritizes deep, correct understanding of a single template over shallow understanding of many.
 ### Supported Scope
-Validated on sample templates: Works strictly with the invoice layout provided in the test/ directory.
 
-Structured Tables: Assumes consistent column alignment and identifiable headers.
+- **Layout-driven parsing:** The system operates on explicit geometric layout definitions (headers, column anchors, row tolerances).
+- **Template extensibility:** Supporting a new invoice format requires defining a corresponding layout configuration; no model retraining is involved.
+- **Validation:** The current implementation is validated on the sample invoice template provided in the `test/` directory.
 
-Digital/Clean Scans: Optimized for standard DPI document images.
 ### Design Principles
 Deterministic Parsing: Same input always yields the same output. No stochastic ML behavior.
 
